@@ -34,7 +34,7 @@ Y = torch.vmap(model)(X)    # shape (100,)
 
 The model expects inputs in $[-\pi, \pi]^m$. If your data lives on another box, map it first with `to_reference_domain(x, lows, highs)`.
 
-See `pytorch_FLM_demo.ipynb` for a full training example.
+`flm.py` also provides `lexi_sign_matrix(m)` (the fixed m-Lexi Sign Matrix) and `lattice_frequencies(N, m)` (the default frequency initialization). The model uses both internally, but you can call them directly, for example to try a different initialization. See `pytorch_FLM_demo.ipynb` for a full training example.
 
 ## Citation
 
