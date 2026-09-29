@@ -1,5 +1,5 @@
 # Fourier Learning Machines (FLMs)
-This repo contains the PyTorch implementation of the FLM architecture.
+This repo contains the PyTorch implementation of the FLM architecture from the paper [Fourier Learning Machines: Nonharmonic Fourier-Based Neural Networks for Scientific Machine Learning](https://openreview.net/forum?id=LPKt5vd7yz) (TMLR, 2025).
 
 ## Files
 
